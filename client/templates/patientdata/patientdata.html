@@ -1,0 +1,36 @@
+<template name="AddPatientData">
+  <div class="well">
+    <center>
+    <h3><i class="fa fa-user-plus"></i> New Patient</h3></center>
+    <br>
+    {{> quickForm
+    collection="PatientData"
+    template="bootstrap3-horizontal"
+    label-class="col-sm-2"
+    input-col-class="col-sm-10"
+
+    id="AddPatientDataForm"
+    type="method"
+    meteormethod="addPatientData"
+    resetOnSuccess=true}}
+  </div>
+</template>
+
+<template name="UpdatePatientData">
+  <div class="well">
+    <center>
+    <h3><i class="fa fa-user-plus"></i> Update Patient</h3></center>
+    <br>
+    {{> quickForm
+    collection="PatientData"
+    template="bootstrap3-horizontal"
+    label-class="col-sm-2"
+    input-col-class="col-sm-10"
+
+    id="UpdatePatientDataForm"
+    type="method-update"
+    meteormethod="updatePatientData"
+    doc=this
+    buttonContent="Update"}}
+  </div>
+</template>

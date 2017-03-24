@@ -1,0 +1,27 @@
+{
+  "name": "meteor-example-autoform",
+  "version": "1.0.0",
+  "description": "![](https://raw.githubusercontent.com/ics-software-engineering/meteor-example-autoform/master/doc/meteor-example-autoform.png)",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.22.0",
+    "request": "^2.75.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ics-software-engineering/meteor-example-autoform.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ics-software-engineering/meteor-example-autoform/issues"
+  },
+  "homepage": "https://github.com/ics-software-engineering/meteor-example-autoform#readme"
+}

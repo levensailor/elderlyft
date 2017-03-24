@@ -1,0 +1,12 @@
+<template name="layout1">
+  <nav class="navbar navbar-inverse" role="navigation">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="{{pathFor 'AddPatientData'}}">Elder Lyft</a>
+    </div>
+  </nav>
+  <div class="container">
+    <div id="main">
+      {{> yield}}
+    </div>
+  </div>
+</template>
